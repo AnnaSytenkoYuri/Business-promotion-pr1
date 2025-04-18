@@ -22,23 +22,69 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="header-container">
-        <a href="index.html">
-          <img src="./images/logo (1).jpg" alt="logo icon" class="logo-icon" />
-          <span class="logo-text">Product</span>
-        </a>
-      <nav>
-        <ul class="menu">
-            <li><a href="index.html">Product</a></li>
-            <li><a href="">Pricing</a></li>
-            <li><a href="">Customers</a></li>
-            <li><a href="">Resources</a></li>
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="header-logo" href="index.html">
+            <img
+              src="./images/logo (1).jpg"
+              alt="logo icon"
+              class="logo-icon"
+            />
+            <span class="logo-text">Product</span>
+          </a>
+
+          <ul class="nav-list">
+            <li class="list-item">
+              <a class="nav-link current" href="index.html">Product</a>
+            </li>
+            <li class="list-item"><a class="nav-link" href="">Pricing</a></li>
+            <li class="list-item"><a class="nav-link" href="">Customers</a></li>
+            <li class="list-item"><a class="nav-link" href="">Resources</a></li>
+          </ul>
+        </nav>
+
+        <ul class="sign-btn-list">
+          <li class="sign-in-btn-item">
+            <a href="sign-in" class="sigh-in-btn">Sign In</a>
+          </li>
+          <li class="sign-up-btn-item">
+            <a href="sign-up" class="sigh-up-btn">Sign Up</a>
+          </li>
         </ul>
-     </div>
-      </nav>
+      </div>
     </header>
 
-    <main></main>
+    <main>
+      <!-- Section-one -->
+
+      <section class="section-one">
+        <div class="containet container-section-one">
+          <h1 class="main-title">
+            Work at the speed <br />
+            of thought
+          </h1>
+          <p class="main-text">
+            Tools, tutorials, design and innovation experts, all in one place!
+            The most intuitive way to imagine your next user experience.
+          </p>
+          <ul class="main-list">
+            <li class="main-button-item">
+              <button type="button" class="main-btn">Get started</button>
+            </li>
+            <li class="main-link-item">
+              <a href="#" class="main-list-link"
+                ><span class="triagle">⏵</span>Watch the Video</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="container-sec-one-icon">
+          <svg width="610" height="555" class="hero-icon">
+            <use href="./images/svg.icons/symbol-defs.svg#icon-hero-img"></use>
+          </svg>
+        </div>
+      </section>
+    </main>
 
     <footer></footer>
   </body>
