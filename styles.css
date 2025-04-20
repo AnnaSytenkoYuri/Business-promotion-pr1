@@ -56,7 +56,7 @@ header {
 
 .header-container {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 .header-nav {
@@ -158,13 +158,18 @@ header {
 /* section one */
 
 .section-one {
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
 }
 
-.container-section-one {
-  padding: 112px 35px 112px 0;
-  margin-left: 145px;
+.hero-right-side {
+  display: flex;
+  flex-direction: column;
+  padding: 112px 0 112px 0;
+  margin-right: 35px;
+  width: 465px;
 }
 
 .main-title {
@@ -224,10 +229,50 @@ header {
   text-decoration: none;
 }
 
-.container-sec-one-icon {
+/* section two */
+.section-two {
+  padding: 100px 0;
+}
+
+.container-section-two {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.title-two {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 50px;
+}
+
+.sec-two-list {
   display: flex;
-  align-items: center;
-  justify-content: right;
- flex-direction: row;
-  padding: 0%;
+  gap: 30px;
+  margin-bottom: 76px;
+}
+
+.sec-two-icon {
+  display: flex;
+  margin-bottom: 26px;
+}
+
+.sec-two-list-item {
+  width: calc((100% - 90px) / 4);
+}
+
+.tittle-three {
+  font-weight: 600;
+  font-size: 22px;
+  color: #22343d;
+  margin-bottom: 13px;
+}
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  color: #22343d;
+  width: 255px;
 }
